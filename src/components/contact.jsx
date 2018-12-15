@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-const About = () => {
+const Contact = () => {
     return ( 
         <div className="container">
-            <h4 className="center"> About </h4>
+            <h4 className="center"> Contact </h4>
             <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Ab cupiditate quaerat voluptas, dolore nisi modi architecto at,
                 voluptate explicabo soluta laboriosam reiciendis commodi nesciunt
@@ -12,4 +12,4 @@ const About = () => {
      );
 }
  
-export default About;
+export default Contact;
