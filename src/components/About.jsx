@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RainBow from './hoc/rainbow';
 
 const About = () => {
     return ( 
@@ -12,4 +13,4 @@ const About = () => {
      );
 }
  
-export default About;
+export default RainBow(About);

@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
-const Home = () => {
+class Home extends Component {
+
+componentDidMount(){
+    
+}
+
+   render(){
     return ( 
         <div className="container">
             <h4 className="center"> Home </h4>
@@ -10,6 +17,7 @@ const Home = () => {
                 accusamus velit similique odit fugit magni! </p>
         </div>
      );
+   }
 }
  
 export default Home;
