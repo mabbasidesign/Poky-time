@@ -1,5 +1,5 @@
 // iniitState
-initeState = {
+const initeState = {
     posts: [
         {id: '1', title:'number 1', body:'recusandae consequuntur expedita et cum reprehenderit molestiae'},
         {id: '2', title:'number 2', body:'recusandae consequuntur expedita et cum reprehenderit molestiae'},
@@ -9,7 +9,7 @@ initeState = {
 
 //rootReducer
 const rooteReducer = (state = initeState, action) => {
-    return state
+    return state;
 }
 
 export default rooteReducer;
