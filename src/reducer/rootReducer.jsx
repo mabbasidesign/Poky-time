@@ -11,7 +11,7 @@ const initeState = {
 const rooteReducer = (state = initeState, action) => {
 
     if(action.type === 'DELETE_POST'){
-        const newPost = state.posts.filter(p => p.id !== action.id)
+        let newPost = state.posts.filter(p => action.id !== p.id)
         return{
             ...state,
             posts: newPost
